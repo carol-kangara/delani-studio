@@ -1,10 +1,29 @@
 #home{
     background-image: url("/images/h_img.jpg");
-    
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    filter: brightness(120%);
 }
 #services{
     background-image: url("/images/s_image.jpg");
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
 }
 #contacts{
     background-image: url("/images/c_image.jpg");
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+}
+#about-us{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px;
+}
+#icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px;
 }
