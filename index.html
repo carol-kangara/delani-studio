@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/script.js"></script>
     <title>Delani studio</title>
 </head>
 <body>
@@ -15,10 +17,17 @@
        <p class="">
           AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT.  
        </p>
+       <div class="mouse-click"></div>
+       <a href="#about-us"><img src="./images/mouse_click.png" ></a> 
    </div> 
     <div class="container" id="about-us">
        <h2>ABOUT US</h2>
-       <p>When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile.Our approach unifies design,development and product management to create exceptional products.We start each project by understanding your business goal,the user's need and the product requirements.Then we help translate them into effective and elegant solutions.</p>
+       <ul class="list-unstyled">
+           <li>When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile.</li>
+           <li>Our approach unifies design,development and product management to create exceptional products.</li>
+           <li>We start each project by understanding your business goal,the user's need and the product requirements.</li>
+           <li>Then we help translate them into effective and elegant solutions.</li>
+       </ul>
    </div>
    <div class="container-fluid" id="services">
        <h1>services</h1>
@@ -33,14 +42,38 @@
             <div class="col-md-4 mb-4">
                 <img src="./images/design_icon.png"  >
                 <h3>DESIGN</h3>
+                <div id="design-desc">
+                    <h4>Design</h4>
+                        <p>
+                            Our design practice offer a full range of services including brand strategy,interaction and visual design and user experience.
+                        </p>
+                        <p>
+                            Throughout your project, our designers create and implement visual design and workflow,solicit user feedback and work with you tomake sure what gets built is what is needed.
+                        </p>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-4 mb-4">
                 <img src="./images/dev_icon.png" >
                 <h3>DEVELOPMENT</h3>
+                <div id="dev-des">
+                    <h2>DEVELOPMENT</h2>
+                    <ul class="list-unstyled">
+                        <li>All engineers are fluent in the latest enterprise,mobile and web development technologies.</li>
+                        <li>They collaborate with your team to write, and improve code on a daily basis,using proven practices such as test-driven development and pair  programming.</li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-4 mb-4">
                 <img src="./images/product_icon.png" >
                 <h3>PRODUCT MANAGEMENT</h3>
+                <div id="pmanagement">
+                    <h4>PRODUCT MANAGEMENT</h4>
+                    <ul class="list-unstyled">
+                        <li>Planning and development is iterative.Because we are constantly coding and testing,the product we build are always ready to go live.</li>
+                        <li>This iterative process allows for changes as business requirements evolve.</li>
+                    </ul>
+                </div>
             </div> 
        </div>
    </div>
