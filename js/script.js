@@ -7,4 +7,20 @@ $(document).ready(function(){
         $("#design-desc").slideDown('1500').hide('1000')
         $("#design").show("2000")
     });
+    $("#dev").click(function(){
+        $("#dev").slideDown('1500').hide('1000')
+        $("#dev-des").show("2000")
+    });
+    $("#dev-des").click(function(){
+        $("#dev-des").slideDown('1500').hide('1000')
+        $("#dev").show("2000")
+    });
+    $("#productM").click(function(){
+        $("#productM").slideDown('1500').hide('1000')
+        $("#pmanagement").show("2000")
+    });
+    $("#pmanagement").click(function(){
+        $("#pmanagement").slideDown('1500').hide('1000')
+        $("#productM").show("2000")
+    });
 })

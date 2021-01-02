@@ -48,11 +48,11 @@ h1{
 }
 #dev-des{
     text-align:center;
-    
+    display: none;
 }
 #pmanagement{
     text-align:center;
-    
+    display: none;
 }
 .list-unstyled{
     text-align: center;
