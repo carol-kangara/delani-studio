@@ -43,15 +43,16 @@ h1{
 }
 #design-desc{
     text-align:center;
-    display:none;
+    display: none;
+    
 }
 #dev-des{
     text-align:center;
-    display:none; 
+    
 }
 #pmanagement{
     text-align:center;
-    display:none;
+    
 }
 .list-unstyled{
     text-align: center;

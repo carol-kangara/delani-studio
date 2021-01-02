@@ -1,3 +1,10 @@
 $(document).ready(function(){
-    
+    $("#design").click(function(){
+        $("#design").slideDown('1500').hide('1000')
+        $("#design-desc").show("2000")
+    });
+    $("#design-desc").click(function(){
+        $("#design-desc").slideDown('1500').hide('1000')
+        $("#design").show("2000")
+    });
 })
