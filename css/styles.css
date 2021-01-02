@@ -1,3 +1,9 @@
+h1{
+    text-align:center;
+}
+/* #social-pages{
+    margin-left: 25%;
+} */
 #home{
     background-image: url("/images/h_img.jpg");
     background-position: center;
@@ -7,6 +13,9 @@
     filter: brightness(120%);
     color: white;
 }
+/* #home >img{
+    position: center;
+} */
 #services{
     background-image: url("/images/s_image.jpg");
     padding: 100px;
@@ -25,6 +34,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 100px;
+    text-align: center;
 }
 #icons{
     margin-top: 30px;
