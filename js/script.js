@@ -23,4 +23,11 @@ $(document).ready(function(){
         $("#pmanagement").toggle('1000')
         $("#productM").toggle("2000")
     });
-})
+});
+$(document).ready(function(){
+    $("#work1").mouseover(function(){
+      $("#overlay1").show();
+    }).mouseout(function(){
+      $("#overlay1").hide();
+    });
+  });
