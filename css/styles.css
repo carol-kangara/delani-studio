@@ -8,6 +8,8 @@ h1{
     background-image: url("/images/h_img.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     padding: 100px;
     text-align: center;
     filter: brightness(120%);
@@ -33,8 +35,9 @@ h1{
 #about-us{
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 100px;
     text-align: center;
+    font-size: 16px;
+    line-height: 36px;
 }
 #icons{
     margin-top: 30px;
@@ -94,4 +97,22 @@ h2{
 .projdel{
     margin-top: 20px;
     text-align: center;
+}
+input[type=text],input[type=email]{
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid white;
+}
+#name{
+    color: white;
+}
+#message{
+    margin-left: 20%;
+    width: 60%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+::placeholder{
+    color: white !important;
 }
