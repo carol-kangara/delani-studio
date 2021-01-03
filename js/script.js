@@ -80,3 +80,17 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
 });
+$(document).ready(function(){
+  $("form#contactsinput").submit(function(event){
+     event.preventDefault();
+     var name = $("input#name").val();
+     var email = $("input#email").val();
+     var message = $("textarea#message").val();
+     if ($("input#name").val() && $("input#email").val()){
+       alert (name + "we have received your message. Thank you fro reaching out to us.");
+     }
+     else {
+       alert("Please fill the contact form above!");
+     }
+  });
+});
