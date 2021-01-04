@@ -94,3 +94,7 @@ $(document).ready(function(){
      }
   });
 });
+$(document).ready(function(){
+  localStorage.setItem("name","");
+document.getElementById("demo").innerHTML = localStorage.getItem("name");
+})
