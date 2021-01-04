@@ -5,6 +5,8 @@
 This is a project about delani studio that deals with mobile and web development.It has details about the studio and has a form where you can leave your message.
 my github repository link is:https://github.com/carol-kangara/delani-studio
 The website link: https://carol-kangara.github.io/delani-studio/
+##Screenshot
+<img src="./images/Screenshot from 2021-01-04 09-23-28.png">
 ## Setup/Installation Requirements 
 * Click on my github  repository link
 * Fork the repository
