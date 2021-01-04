@@ -2,12 +2,10 @@
 ####  
 #### By CAROLINE KANG'ARA
 ## Description
-This is a program about my studio that deals with mobile and web development.
+This is a project about delani studio that deals with mobile and web development.It has details about the studio and has a form where you can leave your message.
 my github repository link is:https://github.com/carol-kangara/delani-studio
 The website link: https://carol-kangara.github.io/delani-studio/
-## Setup/Installation Requirements
-*open jquery download in your  browser,the click  first option having jQuery.com 
-*In the download option save the uncompressed link,then in your computer you can unzip it to the folder location where this project will be saved. 
+## Setup/Installation Requirements 
 * Click on my github  repository link
 * Fork the repository
 * once you get the copy in your github,you can open the vs code and enter the clone code
