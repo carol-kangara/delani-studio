@@ -81,20 +81,16 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-  $("form#contactsinput").submit(function(event){
-     event.preventDefault();
-     var name = $("input#name").val();
-     var email = $("input#email").val();
-     var message = $("textarea#message").val();
-     if ($("input#name").val() && $("input#email").val()){
-       alert (name + "we have received your message. Thank you fro reaching out to us.");
+  $("form.validate").submit(function(){
+     var name = $("input#mce-NAME").val();
+     var email = $("input#mce-EMAIL").val();
+     var message = $("textarea#mce-MESSAGE").val();
+     if ($("input#mce-NAME").val() && $("input#mce-EMAIL").val()){
+       alert (name + " we have received your message. Thank you for reaching out to us.");
      }
      else {
        alert("Please fill the contact form above.");
      }
   });
 });
-$(document).ready(function(){
-  localStorage.setItem("name","");
-document.getElementById("demo").innerHTML = localStorage.getItem("name");
-})
+

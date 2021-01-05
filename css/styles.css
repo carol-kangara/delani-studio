@@ -103,10 +103,10 @@ input[type=text],input[type=email]{
     border: 2px solid white;
     width: 100%;
 }
-#name{
+#name, h1{
     color: white;
 }
-#message{
+#mce-MESSAGE{
     width: 100%;
     background: transparent;
     border: 2px solid white;
